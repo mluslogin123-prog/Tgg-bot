@@ -1909,7 +1909,8 @@ def select_input_file():
     print(f"{CYAN}╔{'═' * 50}╗{RESET}")
     print(f"{CYAN}║{RESET}  {GREEN}✔ SELECTED FILE{RESET}{' ' * 33}{CYAN}║{RESET}")
     print(f"{CYAN}╠{'═' * 50}╣{RESET}")
-    print(f"{CYAN}║{RESET}  {WHITE}Name : {YELLOW}{selected_file['filename']:<40}{RESET} {CYAN}║{RESET}")
+    lines_str = f"{selected_file['lines']:,}"
+    print(f"{CYAN}║{RESET}  {WHITE}Lines: {MAGENTA}{lines_str}{' ' * (40 - len(lines_str))}{RESET} {CYAN}║{RESET}")
     print(f"{CYAN}║{RESET}  {WHITE}Size : {GREEN}{selected_file['size_display']:<40}{RESET} {CYAN}║{RESET}")
     print(f"{CYAN}║{RESET}  {WHITE}Lines: {MAGENTA}{selected_file['lines']:,}{' ' * (40 - len(f'{selected_file['lines']:,}'))}{RESET} {CYAN}║{RESET}")
     print(f"{CYAN}╚{'═' * 50}╝{RESET}")
