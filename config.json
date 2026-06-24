@@ -1,0 +1,17 @@
+{
+  "bot_token": "8835943213:AAF85ux795nd4p7zoKn0Qec8HIoM130ERn8",
+  "admin_ids": [
+    8632939616
+  ],
+  "channel_username": "xeryzs",
+  "locked": false,
+  "global_limit": 500,
+  "vip_limit": null,
+  "default_threads": 50,
+  "max_concurrent": 1,
+  "cooldown_sessions": 1,
+  "cooldown_minutes": 30,
+  "8630994723:AAEcBJt8u1VoJYDz5opCsnI7yFFj5x80dGM": "8630994723:AAEcBJt8u1VoJYDz5opCsnI7yFFj5x80dGM",
+  "8632939616": [],
+  "@ziaachannel": "zia"
+}
